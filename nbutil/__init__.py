@@ -1,1 +1,1 @@
-"""Helpers dla notebooków warsztatu ASR."""
+"""Helpers dla notebooka warsztatu ASR."""

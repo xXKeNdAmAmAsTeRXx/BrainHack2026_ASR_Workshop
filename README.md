@@ -1,37 +1,38 @@
 # BrainHack 2026 — Warsztaty ASR 🎙️
 
-Warsztaty z **rozpoznawania mowy (ASR — Automatic Speech Recognition)** uruchamianego **lokalnie** (bez chmury): od gotowych modeli po streaming w czasie rzeczywistym.
+Warsztaty z **rozpoznawania i generowania mowy**: speech-to-text, text-to-speech i diaryzacja — od rozwiązań chmurowych (API) po lokalne modele (prywatność danych).
 
-## Plan warsztatów
+## Plan warsztatów (3,5 h + 0,5 h przerwa)
 
-| # | Element | Opis | Dokument |
+| Czas | Element | Prowadzący | Dokument |
 |---|---|---|---|
-| 1 | **Wprowadzenie do ASR** | Czym jest ASR, architektury (CTC, seq2seq, transducer), historia: Kaldi → wav2vec 2.0 → Whisper | [docs/01_intro_asr.md](docs/01_intro_asr.md) |
-| 2 | **Lokalne modele ASR** | Whisper (openai-whisper / faster-whisper), Vosk, wav2vec2 — instalacja, pierwsze transkrypcje, wybór modelu pod sprzęt | [docs/02_local_models.md](docs/02_local_models.md) |
-| 3 | **Nagrywanie i streaming audio** | Wejście z mikrofonu (sounddevice), VAD, transkrypcja w czasie rzeczywistym | [docs/03_streaming.md](docs/03_streaming.md) |
-| 4 | **Diaryzacja i przetwarzanie nagrań** | Kto mówi kiedy (pyannote), streszczanie długich nagrań, transkrypcja plików | [docs/04_diarization.md](docs/04_diarization.md) |
-| 5 | **Ewaluacja i fine-tuning** | WER/CER, benchmark lokalnych modeli na polskim, fine-tuning wav2vec2 (wykład rozszerzony) | [docs/05_evaluation.md](docs/05_evaluation.md) |
+| **Wymagania wstępne** | konto ElevenLabs + nagranie własnego głosu (~1 min) — przed warsztatem | — | [docs/00_prerequisites.md](docs/00_prerequisites.md) |
+| **10 min** | Wprowadzenie do ASR (speech-to-text, text-to-speech, diaryzacja) | Franek | [docs/01_intro.md](docs/01_intro.md) |
+| **50 min** | Rozwiązania dostępne przez API i strony — przykład: **ElevenLabs** (transkrypcja, transkrypcja+diaryzacja, TTS, kod przez API) + jak przechowywane/chronione są dane + Fireflies (notatki ze spotkań) | Mateusz | [docs/02_api_elevenlabs.md](docs/02_api_elevenlabs.md) |
+| **15 min** | Krótki wstęp do Python i Google Colab | — | [docs/03_colab_intro.md](docs/03_colab_intro.md) |
+| **20 min** | Ochrona danych i modele lokalne — część warsztatowa: lokalny **Whisper** w Colab (STT, zapis do pliku, CER/WER, diaryzacja) | Franek | [docs/04_local_whisper.md](docs/04_local_whisper.md) |
+| **10 min** | Podsumowanie i pytania ("co wiem po warsztatach i co dalej?") + kontakt AIMed | Franek i Mateusz | [docs/05_summary.md](docs/05_summary.md) |
+
+**Przerwa:** 30 min (np. po bloku API).
 
 ## Struktura repo
 
 ```
-├── README.md                  # ten plik — plan i zakładka repo
-├── nbutil/                    # narzędzia pomocnicze do notebooków
-├── Local_ASR_models.ipynb     # notatnik: lokalne modele ASR (Whisper, Vosk, wav2vec2)
-└── docs/                      # dokumenty per element warsztatu (opis, wymagania, linki)
+├── README.md               # plan warsztatów i zakładka repo
+├── Local_ASR_models.ipynb  # notatnik: lokalny Whisper w Colab (STT, WER/CER, diaryzacja)
+├── nbutil/                 # narzędzia pomocnicze do notebooka
+└── docs/                   # materiały per element warsztatu (opis, wymagania, linki)
 ```
 
-## Wymagania ogólne
-
-- Python 3.10+ (polecamy środowisko przez `uv` lub `venv`)
-- FFmpeg w PATH (dla whisper/audio)
-- GPU przyspiesza mocno, ale wszystko działa też na CPU (mniejsze modele)
-- Szczegółowe zależności: patrz `docs/02_local_models.md`
+## Przygotowanie (przed warsztatem)
+1. **Załóż konto** na [elevenlabs.io](https://elevenlabs.io) (free tier wystarczy)
+2. **Nagraj ~1 minutę własnego głosu** (przyda się do części TTS/voice cloning)
+3. Konto Google (do Colab) — opcjonalnie, ale przydatne
 
 ## Materiały w trakcie przygotowania 🚧
 - [ ] notebook `Local_ASR_models.ipynb` — uzupełnić sekcje
-- [ ] nagrania przykładowe (PL)
-- [ ] quiz / zadania na koniec
+- [ ] przykładowe nagrania PL
+- [ ] gotowe komórki API ElevenLabs
 
 ---
 *Projekt na BrainHack 2026 — AIMed AGH.*
