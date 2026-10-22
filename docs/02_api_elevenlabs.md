@@ -1,4 +1,4 @@
-# 2. Rozwiązania dostępne przez API i strony — 50 min (Mateusz)
+# 2. Rozwiązania dostępne przez API i strony — 55 min (Mateusz)
 
 **Cel:** hands-on z chmurowym ASR/TTS na przykładzie **ElevenLabs** + krytyczne spojrzenie na dane.
 

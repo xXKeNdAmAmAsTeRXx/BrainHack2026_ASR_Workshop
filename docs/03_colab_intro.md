@@ -1,4 +1,4 @@
-# 3. Krótki wstęp do Python i Google Colab — 15 min
+# 3. Krótki wstęp do Python i Google Colab — 10 min
 
 **Cel:** żeby wszyscy mogli uruchamiać kod w części warsztatowej.
 

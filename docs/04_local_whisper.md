@@ -1,6 +1,11 @@
-# 4. Ochrona danych i modele lokalne — 20 min (Franek)
+# 4. Ochrona danych i modele lokalne — 30 min (Franek)
 
 **Cel:** pokazać alternatywę chmurową: model lokalny = dane nie opuszczają Twojej maszyny/Colaba.
+
+Materiały przeniesione do folderu `docs/04_local_whisper/`:
+
+- **Dla uczestników:** [docs/04_local_whisper/handout.md](docs/04_local_whisper/handout.md) — pojęcia, porównania, prywatność, linki.
+- **Dla prowadzącego:** [docs/04_local_whisper/presentation.md](docs/04_local_whisper/presentation.md) — plan slajdów, timing, skrypt mówiony.
 
 ## Program (część warsztatowa w Colab)
 1. **Ochrona danych** — porównanie z blokiem API: co zostaje u dostawcy vs lokalnie
