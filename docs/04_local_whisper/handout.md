@@ -1,7 +1,7 @@
 # Modele lokalne (Whisper) — materiał dla uczestników
 
 **Warsztaty BrainHack 2026 — Rozpoznawanie i generowanie mowy**  
-Moduł 4 (30 min) · Prowadzący: Franek · AIMed AGH
+Moduł 4 (30 min) · Prowadzący: Franciszek Kubala, Mateusz Poszelężny - KN AIMed AGH
 
 > Ten materiał towarzyszy części warsztatowej. Znajdziesz tu pojęcia, porównania i linki. Kod jest w notebooku `Local_ASR_models.ipynb` — nie musisz go pisać samodzielnie.
 

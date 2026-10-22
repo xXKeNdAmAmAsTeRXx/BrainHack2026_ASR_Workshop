@@ -1,7 +1,7 @@
 # Wprowadzenie do ASR — materiał dla uczestników
 
 **Warsztaty BrainHack 2026 — Rozpoznawanie i generowanie mowy**  
-Moduł 1 (15 min) · Prowadzący: Franek · AIMed AGH
+Moduł 1 (15 min) · Prowadzący: Franciszek Kubala, Mateusz Poszelężny - KN AIMed AGH
 
 > Ten materiał towarzyszy wprowadzeniu. Znajdziesz tu definicje, przykłady, słownik pojęć i linki do źródeł. Nie wymaga wiedzy programistycznej.
 
