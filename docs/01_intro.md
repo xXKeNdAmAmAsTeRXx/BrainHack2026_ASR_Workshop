@@ -1,4 +1,4 @@
-# 1. Wprowadzenie do ASR — 10 min (Franek)
+# 1. Wprowadzenie do ASR — 15 min (Franek)
 
 **Cel:** wspólne słownictwo i mapa trzech zagadnień warsztatu.
 

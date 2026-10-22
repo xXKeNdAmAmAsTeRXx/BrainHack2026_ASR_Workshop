@@ -1,4 +1,4 @@
-# 1. Wprowadzenie do ASR — plan prezentacji (10 min)
+# 1. Wprowadzenie do ASR — plan prezentacji (15 min)
 
 **Prowadzący:** Franek  
 **Odbiorcy:** koło psychologów, brak wiedzy programistycznej i AI  
@@ -10,7 +10,7 @@
 
 | Pole | Wartość |
 |---|---|
-| Czas | 10 min |
+| Czas | 15 min |
 | Prowadzący | Franek |
 | Odbiorcy | koło psychologów, brak AI/programowania |
 | Materiał towarzyszący | `docs/01_intro/handout.md` (do wysłania uczestnikom) |
@@ -33,14 +33,14 @@
 | 10 | 6:30–7:55 | Ograniczenia i pułapki + prywatność (zapowiedź) | Szum, nakładanie się mów, akcenty, żargon; utrata emocji/prozodii; halucynacje; błędy zmieniają sens; bias; gdzie idą dane: chmura vs lokalnie; zgoda pacjenta/klienta, tajemnica zawodowa; zapowiedź bloku 4 (Whisper lokalnie) | „uwaga” + chmura vs laptop |
 | 11 | 7:55–8:30 (bufor) | Podsumowanie i mapa warsztatu | 3 pojęcia w 3 słowach; co dalej (moduły 2–5); pytania na koniec modułu 5 | mapa |
 
-*Czasy sumują się do ~8:30, zostaje ~1,5 min buforu na pytania/przejścia.*
+*Czasy sumują się do ~8:30, zostaje ~6,5 min buforu na pytania/przejścia.*
 
 ---
 
 ## Notatki dla prowadzącego (skrypt mówiony)
 
 ### Slajd 1 — Wprowadzenie do ASR
-> „Cześć! Przez najbliższe 10 minut oswoimy trzy pojęcia, które będą przewijać się przez cały warsztat: jak komputer zamienia mowę na tekst, jak zamienia tekst na mowę, i jak rozpoznaje, kto mówi. Potem pokażę, jak to się łączy w jedno narzędzie i gdzie to ma zastosowanie w psychologii.”
+> „Cześć! Przez najbliższe 15 minut oswoimy trzy pojęcia, które będą przewijać się przez cały warsztat: jak komputer zamienia mowę na tekst, jak zamienia tekst na mowę, i jak rozpoznaje, kto mówi. Potem pokażę, jak to się łączy w jedno narzędzie i gdzie to ma zastosowanie w psychologii.”
 
 ### Slajd 2 — Czym jest ASR?
 > „ASR to Automatic Speech Recognition — automatyczne rozpoznawanie mowy. To dziedzina, w której komputer 'słucha' dźwięku i zamienia go na tekst. Można o tym myśleć jak o niewidzialnym stenotypiście, który nigdy się nie męczy. Ważne: ASR najpierw daje tekst — dopiero potem (opcjonalnie) ktoś lub coś ten tekst analizuje.”
@@ -87,7 +87,7 @@
 
 ## Ryzyka
 
-- Za dużo treści na 10 min → trzymać się tabeli timingowej.
+- Za dużo treści na 15 min → trzymać się tabeli timingowej.
 - Odbiorcy bez AI → nie używać skrótów bez wyjaśnienia.
 - Linki mogą się zmienić → sprawdzić przed warsztatem.
 

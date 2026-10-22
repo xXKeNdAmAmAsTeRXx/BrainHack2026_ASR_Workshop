@@ -1,4 +1,4 @@
-# 4. Ochrona danych i modele lokalne — 20 min (Franek)
+# 4. Ochrona danych i modele lokalne — 30 min (Franek)
 
 **Cel:** pokazać alternatywę chmurową: model lokalny = dane nie opuszczają Twojej maszyny/Colaba.
 

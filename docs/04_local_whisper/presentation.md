@@ -1,4 +1,4 @@
-# 4. Ochrona danych i modele lokalne — plan prezentacji (20 min)
+# 4. Ochrona danych i modele lokalne — plan prezentacji (30 min)
 
 **Prowadzący:** Franek  
 **Odbiorcy:** koło psychologów, brak wiedzy programistycznej i AI  
@@ -10,7 +10,7 @@
 
 | Pole | Wartość |
 |---|---|
-| Czas | 20 min |
+| Czas | 30 min |
 | Prowadzący | Franek |
 | Odbiorcy | koło psychologów, brak AI/programowania |
 | Materiał towarzyszący | `docs/04_local_whisper/handout.md` (uczestnicy), `Local_ASR_models.ipynb` (kod) |
@@ -34,7 +34,7 @@
 | 11 | 16:00–18:00 | Porównanie z API | Jakość, czas, gdzie poszły dane; kiedy wybrać chmurę, kiedy lokalnie | tabela |
 | 12 | 18:00–20:00 | Podsumowanie i takeaway | 3 wnioski: prywatność, „lokalnie = kontrola”, mierzenie jakości; co dalej | lista |
 
-*Czasy sumują się do 20 min.*
+*Czasy sumują się do 20 min, zostaje ~10 min buforu.*
 
 ---
 
