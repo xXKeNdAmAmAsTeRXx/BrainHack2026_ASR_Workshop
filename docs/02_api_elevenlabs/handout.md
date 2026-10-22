@@ -1,7 +1,7 @@
 # ElevenLabs — materiał dla uczestników
 
 **Warsztaty BrainHack 2026 — Rozpoznawanie i generowanie mowy**  
-Moduł 2 (55 min) · Prowadzący: Mateusz Poszelężny — KN AIMed AGH
+Moduł 2 (55 min) · Prowadzący: Franciszek Kubala, Mateusz Poszelężny — KN AIMed AGH
 
 > W tej części pracujemy głównie przez stronę ElevenLabs. Wgrasz własne nagranie, sprawdzisz transkrypcję, zobaczysz podział rozmowy na mówców i wygenerujesz mowę z tekstu. Poznasz też klonowanie głosu i sposób uzyskania dostępu przez API.
 
