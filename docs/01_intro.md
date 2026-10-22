@@ -2,6 +2,11 @@
 
 **Cel:** wspólne słownictwo i mapa trzech zagadnień warsztatu.
 
+Materiały przeniesione do folderu `docs/01_intro/`:
+
+- **Dla uczestników:** [docs/01_intro/handout.md](docs/01_intro/handout.md) — definicje, przykłady, słownik pojęć, linki.
+- **Dla prowadzącego:** [docs/01_intro/presentation.md](docs/01_intro/presentation.md) — plan slajdów, timing, skrypt mówiony, notatki.
+
 ## Program
 1. Czym jest **speech-to-text (transkrypcja)** — mowa → tekst
 2. Czym jest **text-to-speech** — tekst → mowa (syntetyczny głos, voice cloning)
