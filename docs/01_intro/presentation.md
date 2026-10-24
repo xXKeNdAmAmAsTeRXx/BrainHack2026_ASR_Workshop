@@ -21,19 +21,14 @@
 
 | # | Czas | Tytuł | Kluczowe punkty (mówione) | Wizual |
 |---|---|---|---|---|
-| 1 | 0:00–0:30 | Wprowadzenie do ASR | Agenda: 3 pojęcia, jak działają razem, zastosowania w psychologii | tytuł + 3 ikony |
-| 2 | 0:30–0:45 | Czym jest ASR? | Automatyczne rozpoznawanie mowy; komputer „słucha” i zapisuje tekst; analogia: niewidzialny stenotypista; najpierw tekst, potem analiza | fala dźwięku → tekst |
-| 3 | 0:45–1:20 | Speech-to-text (transkrypcja) | Definicja mowa→tekst; synonimy STT/transkrypcja; przykłady: napisy, dyktowanie, notatki ze spotkań, polecenia głosowe | mikrofon → dokument |
-| 4 | 1:20–2:20 | Text-to-speech (TTS) | tekst→mowa; zastosowania: czytniki ekranu, audiobooki, asystenci, powiadomienia; voice cloning z ~1 min nagrania + etyka/zgoda | tekst → fala dźwięku |
-| 5 | 2:20–3:20 | Diarizacja (kto mówi i kiedy) | Podział nagrania na segmenty przypisane mówcom; etykiety (Mówca 1/2), nie imiona; przykład transkrypcji spotkania | timeline z kolorami mówców |
-| 6 | 3:20–4:20 | Jak to się łączy: pipeline spotkania | Nagranie → STT (tekst) + diarizacja (kto) → połączona transkrypcja → streszczenie; podgląd bloku API (ElevenLabs) i Fireflies | flowchart |
-| 7 | 4:20–4:55 | Jak to działa „pod maską” (wysoki poziom) | Dźwięk → cechy (spektrogram) → model (sieć neuronowa) → tekst; uczenie na milionach godzin; nie programujemy reguł | spektrogram → tekst |
-| 8 | 4:55–5:30 | Jakość: WER i CER | WER = błędy słów / wszystkie słowa; CER = na znakach; mniej = lepiej; 0% = idealnie; typowo czysta mowa 5–10% WER; mierzymy (jiwer w warsztacie) | wzór + przykład |
-| 9 | 5:30–6:30 | Zastosowania w psychologii | Transkrypcja wywiadów badawczych i sesji (za zgodą); analiza jakościowa/kodowanie; dzienniki głosowe/EMA; TTS: psychoedukacja, dostępność; notatki ze spotkań/supervision | lista |
-| 10 | 6:30–7:55 | Ograniczenia i pułapki + prywatność (zapowiedź) | Szum, nakładanie się mów, akcenty, żargon; utrata emocji/prozodii; halucynacje; błędy zmieniają sens; bias; gdzie idą dane: chmura vs lokalnie; zgoda pacjenta/klienta, tajemnica zawodowa; zapowiedź bloku 4 (Whisper lokalnie) | „uwaga” + chmura vs laptop |
-| 11 | 7:55–8:30 (bufor) | Podsumowanie i mapa warsztatu | 3 pojęcia w 3 słowach; co dalej (moduły 2–5); pytania na koniec modułu 5 | mapa |
+| 1 | 0:00–2:30 | ASR - Active speech recognition | — | — |
+| 2 | 2:30–5:00 | tts | — | — |
+| 3 | 5:00–7:30 | stt | — | — |
+| 4 | 7:30–10:00 | diaryzacja | — | — |
+| 5 | 10:00–12:30 | pytania | — | — |
+| 6 | 12:30–15:00 | plan spotkania | — | — |
 
-*Czasy sumują się do ~8:30, zostaje ~6,5 min buforu na pytania/przejścia.*
+*Czasy sumują się do 15 min.*
 
 ---
 

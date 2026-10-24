@@ -21,18 +21,12 @@
 
 | #  | Czas        | Tytuł | Kluczowe punkty (mówione) | Wizual |
 |----|-------------|---|---|---|
-| 1  | 0:00–3:00   | Chmura vs lokalnie | Co zostaje u dostawcy (audio, tekst, metadane) vs u nas; retencja, trening modeli | tabela porównawcza |
-| 2  | 3:00–4:30   | Co to „model lokalny”? | Whisper działa na Twojej maszynie/Colabie; nie wysyła audio dalej; analogia: tłumacz w pokoju, nie przez telefon | ikona laptopa |
-| 3  | 4:30–6:00   | Ochrona danych w psychologii | Zgoda, tajemnica zawodowa, minimalizacja; kiedy wolno nagrać sesję/wywiad | checklist |
-| 4  | 6:00–8:00   | Whisper w Colab — jak to wygląda | Kroki w dużym skrócie: instalacja → wgranie nagrania → transkrypcja → zapis; pokaz notebooka | zrzut ekranu Colab |
-| 5  | 8:00–9:30   | Transkrypcja (STT) na własnym nagraniu | Co dostajemy: tekst + znaczniki czasu; język polski; ograniczenia | przykładowa transkrypcja |
-| 6  | 9:30–11:00  | Zapis do pliku | txt (tekst) i SRT (napisy z czasem); do czego służą (archiwum, napisy, analiza) | ikony plików |
-| 7  | 11:00–12:30 | Jakość: WER i CER (powtórzenie) | Wzory, interpretacja, typowe wartości; dlaczego mierzymy | wzór |
-| 8  | 12:30–15:00 | WER/CER na własnym nagraniu | Ręczna transkrypcja (reference) vs wynik modelu; co wpływa na błędy | przykład liczb |
-| 9  | 15:00–18:00 | Porównanie z API | Jakość, czas, gdzie poszły dane; kiedy wybrać chmurę, kiedy lokalnie | tabela |
-| 10 | 18:00–20:00 | Podsumowanie i takeaway | 3 wnioski: prywatność, „lokalnie = kontrola”, mierzenie jakości; co dalej | lista |
+| 1  | 0:00–7:30   | Chmura vs lokalnie | — | — |
+| 2  | 7:30–15:00  | openai whisper | — | — |
+| 3  | 15:00–22:30 | CER i WER. whisper w collab - warsztat (tts własnego nagarnia) | — | — |
+| 4  | 22:30–30:00 | model lokalny vs api | — | — |
 
-*Czasy sumują się do 20 min, zostaje ~10 min buforu.*
+*Czasy sumują się do 30 min.*
 
 ---
 
