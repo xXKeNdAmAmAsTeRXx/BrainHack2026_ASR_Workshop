@@ -2,6 +2,11 @@
 
 **Cel:** żeby wszyscy mogli uruchamiać kod w części warsztatowej.
 
+Materiały przeniesione do folderu `docs/03_colab_intro/`:
+
+- **Dla uczestników:** [docs/03_colab_intro/handout.md](docs/03_colab_intro/handout.md) — co to Python i Colab, linki.
+- **Dla prowadzącego:** [docs/03_colab_intro/presentation.md](docs/03_colab_intro/presentation.md) — plan slajdów, timing.
+
 ## Program
 1. **Co to Python?** — język skryptowy, ekosystem bibliotek, dlaczego AI = Python
 2. **Co to Google Colab?** — Jupyter notebook w chmurze Google, darmowe GPU, "komórki" kodu

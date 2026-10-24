@@ -19,22 +19,14 @@
 
 ## Slajdy z timingiem
 
-| # | Czas | Tytuł | Kluczowe punkty (mówione) | Wizual |
-|---|---|---|---|---|
-| 1 | 0:00–1:00 | Po co modele lokalne? | Pytanie: „gdzie idą nasze nagrania?”; prywatność jako motywacja | chmura vs laptop |
-| 2 | 1:00–3:00 | Chmura vs lokalnie | Co zostaje u dostawcy (audio, tekst, metadane) vs u nas; retencja, trening modeli | tabela porównawcza |
-| 3 | 3:00–4:30 | Co to „model lokalny”? | Whisper działa na Twojej maszynie/Colabie; nie wysyła audio dalej; analogia: tłumacz w pokoju, nie przez telefon | ikona laptopa |
-| 4 | 4:30–6:00 | Ochrona danych w psychologii | Zgoda, tajemnica zawodowa, minimalizacja; kiedy wolno nagrać sesję/wywiad | checklist |
-| 5 | 6:00–8:00 | Whisper w Colab — jak to wygląda | Kroki w dużym skrócie: instalacja → wgranie nagrania → transkrypcja → zapis; pokaz notebooka | zrzut ekranu Colab |
-| 6 | 8:00–9:30 | Transkrypcja (STT) na własnym nagraniu | Co dostajemy: tekst + znaczniki czasu; język polski; ograniczenia | przykładowa transkrypcja |
-| 7 | 9:30–11:00 | Zapis do pliku | txt (tekst) i SRT (napisy z czasem); do czego służą (archiwum, napisy, analiza) | ikony plików |
-| 8 | 11:00–12:30 | Jakość: WER i CER (powtórzenie) | Wzory, interpretacja, typowe wartości; dlaczego mierzymy | wzór |
-| 9 | 12:30–14:00 | WER/CER na własnym nagraniu | Ręczna transkrypcja (reference) vs wynik modelu; co wpływa na błędy | przykład liczb |
-| 10 | 14:00–16:00 | Diaryzacja — skrót | „Kto mówi i kiedy” lokalnie (WhisperX/pyannote); wymaga więcej zasobów; co pokazujemy vs co zostawiamy na samodzielne | timeline |
-| 11 | 16:00–18:00 | Porównanie z API | Jakość, czas, gdzie poszły dane; kiedy wybrać chmurę, kiedy lokalnie | tabela |
-| 12 | 18:00–20:00 | Podsumowanie i takeaway | 3 wnioski: prywatność, „lokalnie = kontrola”, mierzenie jakości; co dalej | lista |
+| #  | Czas        | Tytuł | Kluczowe punkty (mówione) | Wizual |
+|----|-------------|---|---|---|
+| 1  | 0:00–7:30   | Chmura vs lokalnie | — | — |
+| 2  | 7:30–15:00  | openai whisper | — | — |
+| 3  | 15:00–22:30 | CER i WER. whisper w collab - warsztat (tts własnego nagarnia) | — | — |
+| 4  | 22:30–30:00 | model lokalny vs api | — | — |
 
-*Czasy sumują się do 20 min, zostaje ~10 min buforu.*
+*Czasy sumują się do 30 min.*
 
 ---
 
