@@ -66,4 +66,4 @@ Materiały warsztatu (dokumentacja w `docs/`, handouty PDF, skrypt `scripts/buil
 **Wyjątek:** `sample_data/OCZYBOLA.WAV` to fragment filmu z darmowej biblioteki nagrań, bez licencji. Nie jest objęty CC BY 4.0 i nie jest referencją ćwiczeń warsztatu. Przed dalszym wykorzystaniem trzeba ustalić prawa do tego nagrania samodzielnie.
 
 ---
-*Projekt na BrainHack 2026 — AIMed AGH.*
+*Warsztaty BrainHack 2026 — AIMed AGH.*
