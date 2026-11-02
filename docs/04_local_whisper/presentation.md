@@ -2,7 +2,7 @@
 
 **Prowadzący:** Franek  
 **Odbiorcy:** koło psychologów, brak wiedzy programistycznej i AI  
-**Cel:** pokazać alternatywę chmurową — model lokalny = dane nie opuszczają Twojej maszyny/Colaba; prywatność, jakość, diaryzacja (skrót)
+**Cel:** pokazać alternatywę chmurową — model lokalny = dane nie opuszczają Twojego komputera. Colab to chmura Google, nie lokalne środowisko. Prywatność, jakość, diaryzacja (opcjonalnie)
 
 ---
 
@@ -19,24 +19,24 @@
 
 ## Slajdy z timingiem
 
-| #  | Czas        | Tytuł | Kluczowe punkty (mówione) | Wizual |
-|----|-------------|---|---|---|
-| 1  | 0:00–7:30   | Chmura vs lokalnie | — | — |
-| 2  | 7:30–15:00  | openai whisper | — | — |
-| 3  | 15:00–22:30 | CER i WER. whisper w collab - warsztat (tts własnego nagarnia) | — | — |
-| 4  | 22:30–30:00 | model lokalny vs api | — | — |
+| # | Czas | Tytuł | Notatki (numery poniżej) | Wizual |
+|---|------|-------|--------------------------|--------|
+| 1 | 0:00–6:00 | API vs Colab vs własny komputer | 1–4 | — |
+| 2 | 6:00–18:00 | Whisper w Colab: instalacja, wgranie, transkrypcja, plik | 5–7 | — |
+| 3 | 18:00–26:00 | WER/CER na własnym nagraniu i własnym reference | 8–9 | — |
+| 4 | 26:00–30:00 | Porównanie z API; diaryzacja tylko przy zapasie czasu | 10–12 | — |
 
-*Czasy sumują się do 30 min.*
+*Czasy sumują się do 30 min. Notatki 1–12 poniżej są przypisane do czterech bloków; notatka 10 (diaryzacja) jest opcjonalna.*
 
 ---
 
 ## Notatki dla prowadzącego (skrypt mówiony)
 
 ### Slajd 1 — Po co modele lokalne?
-> „Zacznijmy od pytania: gdzie trafiają nasze nagrania, gdy używamy narzędzi w chmurze? Dziś pokażę alternatywę: model, który działa u nas — i dane, które nie wychodzą.”
+> „Zacznijmy od pytania: gdzie trafiają nasze nagrania, gdy używamy narzędzi w chmurze? Dziś pokażę trzy miejsca: API dostawcy, Colab i własny komputer. Różnią się tym, czyj jest serwer.”
 
 ### Slajd 2 — Chmura vs lokalnie
-> „W chmurze: audio trafia na serwery dostawcy — zostaje tam przez jakiś czas, może być użyte do treningu modeli. Lokalnie: przetwarzanie odbywa się na naszej maszynie (tu: w Colabie) — my decydujemy, co zostaje.”
+> „W API: audio trafia na serwery dostawcy — zostaje tam przez jakiś czas, może być użyte do treningu modeli. W Colabie: model działa bez API, ale plik trafia na maszynę Google, więc to nadal chmura. Tylko własny komputer zostawia audio u nas — my decydujemy, co zostaje.”
 
 ### Slajd 3 — Co to „model lokalny”?
 > „Whisper to model rozpoznawania mowy, który możemy uruchomić u siebie. Analogia: tłumacz siedzący w pokoju, a nie przez telefon. Audio nie jest wysyłane do żadnego API.”

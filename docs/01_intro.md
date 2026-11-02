@@ -4,8 +4,8 @@
 
 Materiały przeniesione do folderu `docs/01_intro/`:
 
-- **Dla uczestników:** [docs/01_intro/handout.md](docs/01_intro/handout.md) — definicje, przykłady, słownik pojęć, linki.
-- **Dla prowadzącego:** [docs/01_intro/presentation.md](docs/01_intro/presentation.md) — plan slajdów, timing, skrypt mówiony, notatki.
+- **Dla uczestników:** [01_wprowadzenie.pdf](../01_wprowadzenie.pdf) — definicje, przykłady, słownik pojęć, linki (źródło: [01_intro/handout.md](01_intro/handout.md)).
+- **Dla prowadzącego:** [01_intro/presentation.md](01_intro/presentation.md) — plan slajdów, timing, skrypt mówiony, notatki.
 
 ## Program
 1. Czym jest **speech-to-text (transkrypcja)** — mowa → tekst

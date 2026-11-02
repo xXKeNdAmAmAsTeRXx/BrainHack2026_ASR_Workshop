@@ -11,7 +11,7 @@
 | Pole | Wartość |
 |---|---|
 | Czas | 10 min |
-| Materiał towarzyszący | `docs/03_colab_intro.md` |
+| Materiał towarzyszący | `docs/03_colab_intro/handout.md` |
 
 ---
 
@@ -19,7 +19,8 @@
 
 | # | Czas | Tytuł | Kluczowe punkty (mówione) | Wizual |
 |---|---|---|---|---|
-| 1 | 0:00–5:00 | Python | — | — |
-| 2 | 5:00–10:00 | Collab logowanie i wgranie audio | — | — |
+| 1 | 0:00–3:00 | Python: język, biblioteki, dlaczego AI = Python | — | — |
+| 2 | 3:00–7:00 | Colab: notebook w przeglądarce, komórki, Shift+Enter | — | — |
+| 3 | 7:00–10:00 | Wgranie własnego nagrania; Colab działa w chmurze Google | — | — |
 
 *Czasy sumują się do 10 min.*

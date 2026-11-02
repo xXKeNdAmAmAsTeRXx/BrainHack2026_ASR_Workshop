@@ -3,7 +3,7 @@
 ## Program
 1. **Podsumowanie poruszonych tematów** — co zostało pokazane:
    - speech-to-text, text-to-speech, diaryzacja — co to jest
-   - rozwiązania chmurowe (ElevenLabs, Fireflies) vs modele lokalne (Whisper)
+   - rozwiązania chmurowe (ElevenLabs; Fireflies, jeśli był czas) vs modele lokalne (Whisper)
    - prywatność: gdzie i jak są przechowywane dane, co możesz z tym zrobić
 2. **"Co wiem po tych warsztatach i co mogę robić dalej?"**
    - transkrybować własne nagrania lokalnie (Whisper) i w chmurze (API)

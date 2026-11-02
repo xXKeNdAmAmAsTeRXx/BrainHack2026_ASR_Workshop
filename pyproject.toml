@@ -1,0 +1,20 @@
+[project]
+name = "brainhack2026-asr-workshop"
+version = "0.1.0"
+description = "BrainHack 2026: praktyczny workshop o rozwiązaniach chmurowych i lokalnych związanych z ASR"
+readme = "README.md"
+authors = [
+    { email = "frkubala@student.agh.edu.pl" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "markdown>=3.11.2",
+    "weasyprint>=70.0",
+]
+
+[project.scripts]
+brainhack2026-asr-workshop = "brainhack2026_asr_workshop:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"

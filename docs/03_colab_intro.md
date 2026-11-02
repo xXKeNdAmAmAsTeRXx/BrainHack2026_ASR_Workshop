@@ -4,8 +4,8 @@
 
 Materiały przeniesione do folderu `docs/03_colab_intro/`:
 
-- **Dla uczestników:** [docs/03_colab_intro/handout.md](docs/03_colab_intro/handout.md) — co to Python i Colab, linki.
-- **Dla prowadzącego:** [docs/03_colab_intro/presentation.md](docs/03_colab_intro/presentation.md) — plan slajdów, timing.
+- **Dla uczestników:** [03_colab.pdf](../03_colab.pdf) — co to Python i Colab, linki (źródło: [03_colab_intro/handout.md](03_colab_intro/handout.md)).
+- **Dla prowadzącego:** [03_colab_intro/presentation.md](03_colab_intro/presentation.md) — plan slajdów, timing.
 
 ## Program
 1. **Co to Python?** — język skryptowy, ekosystem bibliotek, dlaczego AI = Python

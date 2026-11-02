@@ -19,16 +19,16 @@
 
 ## Slajdy z timingiem
 
-| # | Czas | Tytuł | Kluczowe punkty (mówione) | Wizual |
+| # | Czas | Tytuł | Notatki (numery poniżej) | Wizual |
 |---|---|---|---|---|
-| 1 | 0:00–2:30 | ASR - Active speech recognition | — | — |
-| 2 | 2:30–5:00 | tts | — | — |
-| 3 | 5:00–7:30 | stt | — | — |
-| 4 | 7:30–10:00 | diaryzacja | — | — |
-| 5 | 10:00–12:30 | pytania | — | — |
-| 6 | 12:30–15:00 | plan spotkania | — | — |
+| 1 | 0:00–2:00 | Czym jest ASR (Automatic Speech Recognition) | 1–2 | — |
+| 2 | 2:00–5:30 | Trzy filary: STT, TTS, diaryzacja | 3–5 | — |
+| 3 | 5:30–7:30 | Pipeline spotkania | 6 | — |
+| 4 | 7:30–10:30 | Ograniczenia i zastosowania w psychologii | 9–10 | — |
+| 5 | 10:30–13:00 | Jak to działa i jakość (WER/CER) | 7–8 | — |
+| 6 | 13:00–15:00 | Podsumowanie i plan warsztatu | 11 | — |
 
-*Czasy sumują się do 15 min.*
+*Czasy sumują się do 15 min. Notatki 1–11 poniżej są przypisane do sześciu slajdów.*
 
 ---
 
@@ -90,8 +90,9 @@
 
 ## Mapa do handoutu
 
-| Slajd | Sekcja handoutu |
+| Notatka | Sekcja handoutu |
 |---|---|
+| 1 | 1. Czym jest ASR? |
 | 2 | 1. Czym jest ASR? |
 | 3 | 2. Trzy filary — STT |
 | 4 | 2. Trzy filary — TTS |

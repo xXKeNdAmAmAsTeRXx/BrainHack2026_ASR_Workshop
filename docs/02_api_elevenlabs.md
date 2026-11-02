@@ -1,5 +1,7 @@
 # 2. Rozwiązania dostępne przez API i strony — 55 min (Mateusz)
 
+> Aktualne materiały: uczestnicy — [02_elevenlabs.pdf](../02_elevenlabs.pdf) (źródło: [handout.md](02_api_elevenlabs/handout.md)), prowadzący — [presentation.md](02_api_elevenlabs/presentation.md). Ten plik to starszy szkic.
+
 **Cel:** hands-on z chmurowym ASR/TTS na przykładzie **ElevenLabs** + krytyczne spojrzenie na dane.
 
 ## Program
@@ -18,7 +20,7 @@ API_KEY = "..."  # ElevenLabs dashboard
 files = {"file": open("moj_glos.wav", "rb")}
 headers = {"xi-api-key": API_KEY}
 r = requests.post("https://api.elevenlabs.io/v1/speech-to-text",
-                  headers=headers, files=files, data={"model_id": "scribe_v1"})
+                  headers=headers, files=files, data={"model_id": "scribe_v2"})
 print(r.json())
 
 # Text-to-speech
