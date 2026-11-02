@@ -32,6 +32,9 @@ Slot: 3,5 h + 0,5 h przerwy. Rdzeń programu to 2 h; pozostały czas to zapas na
 ├── 04_whisper.pdf               # handout modułu 4
 ├── Local_ASR_models.ipynb       # notatnik: lokalny Whisper w Colab
 ├── README.md
+├── assets/
+│   ├── aimed-logo.png           # logo KN AIMed AGH (patrz Licencja)
+│   └── fonts/                   # Fira Sans, Fira Mono, M PLUS 1 + licencje OFL
 ├── scripts/
 │   └── build_pdf.py             # składa handouty z docs/ do PDF w katalogu głównym
 ├── sample_data/                 # przykładowe nagranie (patrz Licencja)
@@ -52,7 +55,9 @@ uv run scripts/build_pdf.py
 
 Zależności (`markdown`, `weasyprint`) instaluje `uv` automatycznie.
 
-WeasyPrint wymaga bibliotek Pango w systemie. Skrypt używa czcionki DejaVu Sans, więc polskie znaki są poprawnie osadzone.
+WeasyPrint wymaga bibliotek Pango w systemie. Szablon używa czcionek z `assets/fonts/` (ten sam zestaw co strona [brainhackkrakow.org](https://brainhackkrakow.org/)), więc PDF wygląda tak samo na każdej maszynie. DejaVu Sans jest tylko zapasowym krojem dla znaków, których brak w tych czcionkach (np. strzałka →).
+
+Nagłówek każdej strony to pasek w kolorach Brainhack z logo AIMed i nazwą modułu. Nazwy modułów są w `scripts/build_pdf.py` (lista `HANDOUTS`).
 
 ## Przygotowanie (przed warsztatem)
 1. **Załóż konto** na [elevenlabs.io](https://elevenlabs.io) (free tier wystarczy)
@@ -63,7 +68,11 @@ WeasyPrint wymaga bibliotek Pango w systemie. Skrypt używa czcionki DejaVu Sans
 
 Materiały warsztatu (dokumentacja w `docs/`, handouty PDF, skrypt `scripts/build_pdf.py`, notatnik `Local_ASR_models.ipynb`) są udostępnione na licencji [Creative Commons Uznanie autorstwa 4.0 Międzynarodowe (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.pl). Możesz je kopiować, zmieniać i wykorzystywać, także komercyjnie, pod warunkiem podania autorstwa (KN AIMed AGH, BrainHack 2026) i informacji o zmianach.
 
-**Wyjątek:** `sample_data/OCZYBOLA.WAV` to fragment filmu z darmowej biblioteki nagrań, bez licencji. Nie jest objęty CC BY 4.0 i nie jest referencją ćwiczeń warsztatu. Przed dalszym wykorzystaniem trzeba ustalić prawa do tego nagrania samodzielnie.
+**Wyjątki:**
+
+- `sample_data/OCZYBOLA.WAV` to fragment filmu z darmowej biblioteki nagrań, bez licencji. Nie jest objęty CC BY 4.0 i nie jest referencją ćwiczeń warsztatu. Przed dalszym wykorzystaniem trzeba ustalić prawa do tego nagrania samodzielnie.
+- `assets/aimed-logo.png` to znak KN AIMed AGH. Nie jest objęty CC BY 4.0. Przed użyciem poza tym repozytorium ustal zasady z KN AIMed AGH.
+- `assets/fonts/` to Fira Sans, Fira Mono i M PLUS 1 na licencji SIL Open Font License 1.1 (teksty licencji w `assets/fonts/OFL-*.txt`). Pliki M PLUS 1 są przycięte do alfabetu łacińskiego i zapisane jako statyczne instancje wagi 400 i 700.
 
 ---
 *Warsztaty BrainHack 2026 — AIMed AGH.*

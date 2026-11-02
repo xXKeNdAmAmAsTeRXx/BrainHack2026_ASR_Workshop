@@ -132,34 +132,42 @@ To właśnie robią automatycznie narzędzia takie jak ElevenLabs czy Fireflies 
 ## 10. Przydatne źródła
 
 **Podstawy:**
+
 - Wikipedia — Automatic speech recognition: https://en.wikipedia.org/wiki/Automatic_speech_recognition
 - Wikipedia — Speech synthesis: https://en.wikipedia.org/wiki/Speech_synthesis
 - Wikipedia — Word error rate: https://en.wikipedia.org/wiki/Word_error_rate
 
 **Whisper:**
+
 - OpenAI Whisper (opis): https://openai.com/research/whisper
 - Artykuł (paper): https://arxiv.org/abs/2212.04356
 - GitHub openai/whisper: https://github.com/openai/whisper
 - faster-whisper: https://github.com/SYSTRAN/faster-whisper
 
 **Diarizacja:**
+
 - pyannote: https://github.com/pyannote/pyannote-audio
 - WhisperX: https://github.com/m-bain/whisperX
 
 **Chmura / TTS:**
+
 - ElevenLabs docs: https://elevenlabs.io/docs
 - ElevenLabs privacy: https://elevenlabs.io/privacy
 
 **Notatki ze spotkań:**
+
 - Fireflies: https://fireflies.ai
 
 **Dema (online):**
+
 - Hugging Face — Whisper: https://huggingface.co/spaces/openai/whisper
 
 **Środowisko warsztatu:**
+
 - Google Colab: https://colab.research.google.com
 
 **Prywatność (PL):**
+
 - UODO (ochrona danych): https://uodo.gov.pl
 
 ---

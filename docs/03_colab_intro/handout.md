@@ -34,11 +34,12 @@ Moduł 3 (10 min)
 
 ## 3. Praktyka (w trakcie warsztatu)
 
-1. Otwieramy notebook z repo w Colabie (*File → Open notebook → GitHub* lub upload pliku).
+1. Pobieramy repo z GitHuba jako ZIP: na stronie repozytorium wybieramy **Code → Download ZIP** i rozpakowujemy plik. Następnie w Colabie wybieramy *File → Upload notebook* (*Plik → Prześlij notatnik*) i wskazujemy `Local_ASR_models.ipynb` z rozpakowanego folderu.
 2. Uruchamiamy pierwszą komórkę (`Shift+Enter`).
 3. Wgrywamy własne nagranie (files.upload / mount Drive).
 
 ## Linki
+
 - Colab: https://colab.research.google.com
 - Colab FAQ (GPU): https://research.google.com/colaboratory/faq.html
 - Python dla początkujących: https://www.python.org/about/gettingstarted/

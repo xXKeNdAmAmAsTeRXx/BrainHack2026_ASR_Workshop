@@ -96,11 +96,13 @@ Checklist przed nagraniem sesji/wywiadu:
 ## 8. Kiedy chmura, kiedy lokalnie?
 
 Wybierz **lokalnie**, gdy:
+
 - nagranie jest wrażliwe (sesje, wywiady, dane pacjentów),
 - potrzebujesz pełnej kontroli nad danymi,
 - nie masz podstawy prawnej do wysyłania audio do chmury.
 
 Wybierz **chmurę**, gdy:
+
 - zależy Ci na wygodzie i szybkości,
 - jakość musi być najwyższa (np. trudny akcent, żargon),
 - masz zgodę i spełnione wymogi prawne.
