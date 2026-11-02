@@ -1,7 +1,7 @@
 [project]
 name = "brainhack2026-asr-workshop"
 version = "0.1.0"
-description = "Add your description here"
+description = "BrainHack 2026: praktyczny workshop o rozwiązaniach chmurowych i lokalnych związanych z ASR"
 readme = "README.md"
 authors = [
     { email = "frkubala@student.agh.edu.pl" }
