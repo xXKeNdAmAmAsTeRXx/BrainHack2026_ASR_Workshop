@@ -4,8 +4,8 @@
 
 Materiały przeniesione do folderu `docs/04_local_whisper/`:
 
-- **Dla uczestników:** [docs/04_local_whisper/handout.md](docs/04_local_whisper/handout.md) — pojęcia, porównania, prywatność, linki.
-- **Dla prowadzącego:** [docs/04_local_whisper/presentation.md](docs/04_local_whisper/presentation.md) — plan slajdów, timing, skrypt mówiony.
+- **Dla uczestników:** [04_whisper.pdf](../04_whisper.pdf) — pojęcia, porównania, prywatność, linki (źródło: [04_local_whisper/handout.md](04_local_whisper/handout.md)).
+- **Dla prowadzącego:** [04_local_whisper/presentation.md](04_local_whisper/presentation.md) — plan slajdów, timing, skrypt mówiony.
 
 ## Program (część warsztatowa w Colab)
 1. **Ochrona danych** — porównanie z blokiem API: co zostaje u dostawcy vs lokalnie

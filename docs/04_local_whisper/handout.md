@@ -9,27 +9,31 @@ Moduł 4 (30 min) · Prowadzący: Franciszek Kubala, Mateusz Poszelężny - KN A
 
 ## 1. Co to „model lokalny” (Whisper)?
 
-**Whisper** to model rozpoznawania mowy, który można uruchomić **u siebie** — na własnym komputerze albo w sesji Google Colab.
+**Whisper** to model rozpoznawania mowy, który można uruchomić **u siebie**, na własnym komputerze. W sesji Google Colab działa ten sam model, ale na maszynie Google, więc to już chmura.
 
 **Analogia:** tłumacz siedzący w pokoju z Tobą, a nie przez telefon do biura tłumaczeń.
 
-**Kluczowe:** audio **nie jest wysyłane** do żadnego API dostawcy. Przetwarzanie odbywa się na maszynie, na której uruchamiasz model.
+**Kluczowe:** Whisper nie wysyła audio do API dostawcy ASR. Ale **to, gdzie leży plik, zależy od miejsca uruchomienia:**
+
+- **Własny komputer** — audio zostaje u Ciebie.
+- **Google Colab** — model działa bez API ASR, lecz plik trafia na maszynę Google. Colab to chmura, nie „lokalnie”.
+- **API (ElevenLabs)** — audio trafia na serwery dostawcy ASR.
 
 ---
 
 ## 2. Chmura vs lokalnie
 
-| Kwestia | Chmura (API) | Lokalnie (Whisper) |
-|---|---|---|
-| Gdzie idzie audio | Na serwery dostawcy | Zostaje na Twojej maszynie/Colabie |
-| Retencja | Zależy od dostawcy (sprawdź politykę) | Ty decydujesz, co zachować |
-| Trening modeli na Twoich danych | Możliwe (opt-out) | Nie dotyczy |
-| Jakość | Często bardzo dobra | Dobra, zależy od modelu/hałasu |
-| Czas i wygoda | Szybko, bez instalacji | Wymaga uruchomienia (Colab) |
-| Koszt | Limity/płatności | Darmowe (Colab CPU) |
-| Kontrola nad danymi | Ograniczona | Pełna |
+| Kwestia | Chmura (API, np. ElevenLabs) | Colab (Whisper w chmurze Google) | Własny komputer (Whisper) |
+|---|---|---|---|
+| Gdzie idzie audio | Na serwery dostawcy ASR | Na maszynę Google, bez API ASR | Zostaje na Twoim komputerze |
+| Retencja | Zależy od dostawcy (sprawdź politykę) | Zależy od Google i sesji; pliki znikają z sesji po zakończeniu | Ty decydujesz, co zachować |
+| Trening modeli na Twoich danych | Możliwe (opt-out) | Sprawdź warunki Google | Nie dotyczy |
+| Jakość | Często bardzo dobra | Zależy od modelu i zasobów | Zależy od modelu i zasobów |
+| Czas i wygoda | Szybko, bez instalacji | Bez instalacji, w przeglądarce | Wymaga instalacji |
+| Koszt | Limity/płatności | Darmowe limity | Darmowe (zależy od sprzętu) |
+| Kontrola nad danymi | Ograniczona | Ograniczona | Pełna |
 
-**Wniosek:** wybór zależy od tego, co ważniejsze — wygoda/jakość czy prywatność/kontrola.
+**Wniosek:** wybór zależy od tego, co ważniejsze — wygoda/jakość czy prywatność/kontrola. Jeśli nagranie jest wrażliwe, zostaje tylko własny komputer.
 
 ---
 
@@ -107,7 +111,7 @@ Wybierz **chmurę**, gdy:
 
 | Pojęcie | Definicja |
 |---|---|
-| Model lokalny | Model działający na Twojej maszynie/Colabie, bez wysyłania audio |
+| Model lokalny | Model działający na Twoim komputerze, bez wysyłania audio poza nim |
 | Chmura (cloud) | Przetwarzanie na serwerach dostawcy |
 | Retencja | Jak długo dane są przechowywane |
 | Opt-out z treningu | Wyłączenie użycia danych do trenowania modeli |

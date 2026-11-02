@@ -89,7 +89,9 @@ Zapisz wynik jako `diaryzacja`. **Otwórz pobrany plik i sprawdź, czy zawiera p
 
 ## 7. Pokaz — klonowanie własnego głosu
 
-**Voice cloning** tworzy głos, którym następnie można wygenerować wypowiedź na podstawie nowego tekstu. Do krótkiego pokazu wykorzystujemy **Instant Voice Cloning**, z próbką około 1–2 minut czystej mowy jednej osoby. Professional Voice Cloning wymaga większej ilości materiału i dodatkowego procesu przygotowania;
+**Voice cloning** tworzy głos, którym następnie można wygenerować wypowiedź na podstawie nowego tekstu. Do krótkiego pokazu wykorzystujemy **Instant Voice Cloning**, z próbką około 1–2 minut czystej mowy jednej osoby. Professional Voice Cloning wymaga większej ilości materiału i dodatkowego procesu przygotowania.
+
+To pokaz prowadzącego, nie ćwiczenie uczestników. Klonować wolno wyłącznie własny głos albo głos osoby, która wyraziła na to zgodę.
 
 ---
 
@@ -105,7 +107,7 @@ Zapisz wynik jako `diaryzacja`. **Otwórz pobrany plik i sprawdź, czy zawiera p
 4. Skopiuj klucz.
 5. Po ćwiczeniach możesz usunąć klucz, jeśli nie będzie już potrzebny.
 
-| **Ważne** | - nigdy nie pokazuj, ani nie udostępniaj publicznie swojego klucza API innym osobą.  
+> **Ważne:** nigdy nie pokazuj ani nie udostępniaj publicznie swojego klucza API innym osobom.
 
 ### Co program wysyła i otrzymuje?
 
