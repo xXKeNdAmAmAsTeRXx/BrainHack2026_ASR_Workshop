@@ -9,12 +9,20 @@ from weasyprint import HTML
 
 ROOT = Path(__file__).resolve().parent.parent
 
-HANDOUTS = [
-    ("docs/01_intro/handout.md", "01_wprowadzenie.pdf", "Moduł 1 · Wprowadzenie do ASR"),
-    ("docs/02_api_elevenlabs/handout.md", "02_elevenlabs.pdf", "Moduł 2 · ElevenLabs: STT, TTS, API"),
-    ("docs/03_colab_intro/handout.md", "03_colab.pdf", "Moduł 3 · Python i Google Colab"),
-    ("docs/04_local_whisper/handout.md", "04_whisper.pdf", "Moduł 4 · Modele lokalne: Whisper"),
-]
+HANDOUTS = {
+    "pl": [
+        ("docs/01_intro/handout.md", "01_wprowadzenie.pdf", "Moduł 1 · Wprowadzenie do ASR"),
+        ("docs/02_api_elevenlabs/handout.md", "02_elevenlabs.pdf", "Moduł 2 · ElevenLabs: STT, TTS, API"),
+        ("docs/03_colab_intro/handout.md", "03_colab.pdf", "Moduł 3 · Python i Google Colab"),
+        ("docs/04_local_whisper/handout.md", "04_whisper.pdf", "Moduł 4 · Modele lokalne: Whisper"),
+    ],
+    "en": [
+        ("docs/01_intro/handout_en.md", "01_intro_en.pdf", "Module 1 · Introduction to ASR"),
+        ("docs/02_api_elevenlabs/handout_en.md", "02_elevenlabs_en.pdf", "Module 2 · ElevenLabs: STT, TTS, API"),
+        ("docs/03_colab_intro/handout_en.md", "03_colab_en.pdf", "Module 3 · Python and Google Colab"),
+        ("docs/04_local_whisper/handout_en.md", "04_whisper_en.pdf", "Module 4 · Local models: Whisper"),
+    ],
+}
 
 PURPLE = "#2d2a45"
 INK = "#191919"
@@ -96,9 +104,9 @@ li {{ margin-bottom: 1pt; }}
 """
 
 
-def page_html(body: str, module_label: str) -> str:
+def page_html(body: str, module_label: str, lang: str = "pl") -> str:
     return f"""<!doctype html>
-<html lang="pl">
+<html lang="{lang}">
 <head><meta charset="utf-8"><style>{CSS}</style></head>
 <body>
   <header class="page-header">
@@ -115,11 +123,12 @@ def page_html(body: str, module_label: str) -> str:
 
 
 def build() -> None:
-    for source, target, label in HANDOUTS:
-        text = (ROOT / source).read_text(encoding="utf-8")
-        body = markdown.markdown(text, extensions=["tables", "fenced_code"])
-        HTML(string=page_html(body, label), base_url=str(ROOT)).write_pdf(ROOT / target)
-        print(f"{target} <- {source}")
+    for lang, handouts in HANDOUTS.items():
+        for source, target, label in handouts:
+            text = (ROOT / source).read_text(encoding="utf-8")
+            body = markdown.markdown(text, extensions=["tables", "fenced_code"])
+            HTML(string=page_html(body, label, lang), base_url=str(ROOT)).write_pdf(ROOT / target)
+            print(f"[{lang}] {target} <- {source}")
 
 
 if __name__ == "__main__":
