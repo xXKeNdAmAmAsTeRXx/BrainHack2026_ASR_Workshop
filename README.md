@@ -21,7 +21,7 @@ Slot: 3,5 h + 0,5 h przerwy. Rdzeń programu to 2 h; pozostały czas to zapas na
 
 ## Notatnik
 
-[`Local_ASR_models.ipynb`](Local_ASR_models.ipynb) — lokalny Whisper w Google Colab. Otwórz w Colab: *File → Open notebook → GitHub* albo prześlij plik. Wgraj własne nagranie (~1 min) i własną transkrypcję referencyjną, jeśli chcesz policzyć WER/CER.
+[`Local_ASR_models.ipynb`](Local_ASR_models.ipynb) — lokalny Whisper w Google Colab. Otwórz w Colab: *File → Open notebook → GitHub* albo prześlij plik. Wgraj własne nagranie (~1 min) i własną transkrypcję referencyjną, jeśli chcesz policzyć WER/CER. Wersja angielska: [`Local_ASR_models_en.ipynb`](Local_ASR_models_en.ipynb).
 
 ## Struktura repo
 
